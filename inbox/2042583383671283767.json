@@ -1,0 +1,14 @@
+{
+  "id": "2042583383671283767",
+  "author": "@CamilleRoux",
+  "author_name": "Camille Roux",
+  "created_at": "2026-04-10T12:40:02.000Z",
+  "text": "TREK, un planificateur de voyage self-hosted : cartes interactives, collaboration en temps réel, suivi de budget, listes de bagages, PWA, SSO. Stack sobre : Node.js + React + SQLite. \nhttps://t.co/nt8yc7mPkN https://t.co/AOrIgdsr3r",
+  "urls": [
+    "https://github.com/mauriceboe/TREK"
+  ],
+  "conversation_id": "2042583383671283767",
+  "referenced_tweets": [],
+  "included": [],
+  "source_url": "https://x.com/CamilleRoux/status/2042583383671283767"
+}

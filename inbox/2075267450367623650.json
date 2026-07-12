@@ -1,0 +1,22 @@
+{
+  "id": "2075267450367623650",
+  "author": "@midnights_ra1n",
+  "author_name": "midnights_ra1n",
+  "created_at": "2026-07-09T17:14:51.000Z",
+  "text": "En gros j'aimerais prendre deux offres VPS pour mon homelab, 1er VPS pour :\n- AdGuard Home 1\n- Serveur Headscale\n- Nginx proxy manager + Fail2ban (ou alternative)\nCar ça va remplacer Cloudflare et Tailscale\n2ème VPS :\n- AdGuard Home 2\n- Beszel\n- Patchmon\n- UptimeKuma https://t.co/aQCpsyA3fR",
+  "urls": [],
+  "conversation_id": "2075267450367623650",
+  "referenced_tweets": [
+    {
+      "id": "2075084942900342818",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2075084942900342818",
+      "text": "Le VPS le plus bas de gamme de chez ovh est bien ? Ou il y a mieux pour moins cher ou au même prix (France ou Europe) ?"
+    }
+  ],
+  "source_url": "https://x.com/midnights_ra1n/status/2075267450367623650"
+}

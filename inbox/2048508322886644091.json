@@ -1,0 +1,22 @@
+{
+  "id": "2048508322886644091",
+  "author": "@gnukeith",
+  "author_name": "Keith",
+  "created_at": "2026-04-26T21:03:38.000Z",
+  "text": "I would rather write code on a piece of paper and hand deliver it to the cloud than use Xcode, also since when was Xcode open source? I don't remember it ever being open source https://t.co/6Xv86bmnzC",
+  "urls": [],
+  "conversation_id": "2048508322886644091",
+  "referenced_tweets": [
+    {
+      "id": "2048472523466031122",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2048472523466031122",
+      "text": "this is all you need on a mac in 2026\n\n&gt; zen browser\n&gt; cmux (claude &amp; codex)\n&gt; xcode\n&gt; recordly\n\n(all 100% free and open source) https://t.co/OK8IfMig87"
+    }
+  ],
+  "source_url": "https://x.com/gnukeith/status/2048508322886644091"
+}

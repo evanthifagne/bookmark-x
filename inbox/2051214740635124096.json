@@ -1,0 +1,22 @@
+{
+  "id": "2051214740635124096",
+  "author": "@iamncdai",
+  "author_name": "Chánh Đại",
+  "created_at": "2026-05-04T08:17:58.000Z",
+  "text": "Just added D shortcut (toggle mode) for @shadcncraft. Previously there was only M, now both are available. https://t.co/GDdnN8Xyfi https://t.co/BRt5o1aXH9",
+  "urls": [],
+  "conversation_id": "2051214740635124096",
+  "referenced_tweets": [
+    {
+      "id": "2051208540228825517",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2051208540228825517",
+      "text": "I used D in shadcn/ui because it's easier to toggle with your left hand when you're debugging/inspecting with a mouse/trackpad. https://t.co/brQnvChLuR"
+    }
+  ],
+  "source_url": "https://x.com/iamncdai/status/2051214740635124096"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2066574245485031635",
+  "author": "@sawyerhood",
+  "author_name": "Sawyer Hood",
+  "created_at": "2026-06-15T17:31:09.000Z",
+  "text": "pro tip: give your coding agent access to a browser and tell it to \"use the window.figma global that mirrors the plugin api.\" it now can automate basically anything in figma.\n\nthere is an entire design team that bought Do Browser just for this. https://t.co/p7qk7ov77d",
+  "urls": [],
+  "conversation_id": "2066574245485031635",
+  "referenced_tweets": [
+    {
+      "id": "2066413328193245574",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2066413328193245574",
+      "text": "Codex hit Figma's MCP limit and then just opened Figma in a browser tab to keep working"
+    }
+  ],
+  "source_url": "https://x.com/sawyerhood/status/2066574245485031635"
+}

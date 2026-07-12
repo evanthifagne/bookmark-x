@@ -1,0 +1,24 @@
+{
+  "id": "2074546478232850512",
+  "author": "@colebemis",
+  "author_name": "Cole Bemis",
+  "created_at": "2026-07-07T17:29:58.000Z",
+  "text": "Open sourced all of my Notion Workers including my Twitter bookmarks sync\n\nhttps://t.co/G8nx7d0Omf https://t.co/eiFasRS5cg",
+  "urls": [
+    "https://github.com/colebemis/notion-workers"
+  ],
+  "conversation_id": "2074546478232850512",
+  "referenced_tweets": [
+    {
+      "id": "2072864850687283446",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2072864850687283446",
+      "text": "Twitter Bookmarks 🤝 Notion https://t.co/DnXRobxSUk"
+    }
+  ],
+  "source_url": "https://x.com/colebemis/status/2074546478232850512"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2074530933001310390",
+  "author": "@_heyrico",
+  "author_name": "rico",
+  "created_at": "2026-07-07T16:28:12.000Z",
+  "text": "Product design cheatsheet, bookmark this:\n\n- Font: SF Pro, regular and medium\n- Font size: 12px, 13px (base size), 14px, 16px, 18px, and 24px (the biggest)\n- Colors: subtle (7F7F7F), default (5D5D5D), strong (292929), bg-selected (F5F5F5), border (F2F2F2)\n- Icon: @nucleoicons with 1px width\n\nWhat else do I miss?",
+  "urls": [],
+  "conversation_id": "2074530933001310390",
+  "referenced_tweets": [
+    {
+      "id": "2058563840636514807",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2058563840636514807",
+      "text": "Dark mode product design ✨\n\nIs this a clean design? https://t.co/jceKMAU4HQ"
+    }
+  ],
+  "source_url": "https://x.com/_heyrico/status/2074530933001310390"
+}

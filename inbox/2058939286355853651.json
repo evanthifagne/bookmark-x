@@ -1,0 +1,12 @@
+{
+  "id": "2058939286355853651",
+  "author": "@nicos_ai",
+  "author_name": "Nico",
+  "created_at": "2026-05-25T15:52:33.000Z",
+  "text": "Google acaba de publicar el estándar de Code Review que usan sus ingenieros internos.\n\nLiteralmente puedes darle esta documentación a un agente de IA y convertirlo en un revisor de código con estándares de Google.\n\nLa mayoría de IAs solo generan código.\n\nAhora también pueden:\n\n→ detectar malas prácticas\n→ revisar arquitectura\n→ pedir cambios útiles\n→ validar legibilidad y mantenibilidad\n→ dar feedback estilo Google\n\nEl documento incluye cómo revisan código realmente dentro de Google:\n→ criterios de aprobación\n→ qué bloquea un merge\n→ cómo escribir código fácil de aceptar\n→ términos internos como LGTM y CL\n\nNo es teoría.\n\nEs el sistema real que usa Google para revisar millones de líneas de código.\n\nEnlace abajo 👇",
+  "urls": [],
+  "conversation_id": "2058939286355853651",
+  "referenced_tweets": [],
+  "included": [],
+  "source_url": "https://x.com/nicos_ai/status/2058939286355853651"
+}

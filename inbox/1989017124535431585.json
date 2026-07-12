@@ -1,0 +1,22 @@
+{
+  "id": "1989017124535431585",
+  "author": "@nikolasklein",
+  "author_name": "Niko",
+  "created_at": "2025-11-13T17:06:51.000Z",
+  "text": "what https://t.co/tsGw9IR1kl",
+  "urls": [],
+  "conversation_id": "1989017124535431585",
+  "referenced_tweets": [
+    {
+      "id": "1988959021550714978",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "1988959021550714978",
+      "text": "working on a sidebar, breadcrumb, and timeline\n\nwe'll sweat the details on the implementation https://t.co/jbleW2KsEI"
+    }
+  ],
+  "source_url": "https://x.com/nikolasklein/status/1989017124535431585"
+}

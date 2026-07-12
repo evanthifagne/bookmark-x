@@ -1,0 +1,22 @@
+{
+  "id": "2057634302528213357",
+  "author": "@powl_d",
+  "author_name": "Powlisher",
+  "created_at": "2026-05-22T01:27:01.000Z",
+  "text": "Quand j’étais en étude je jouais des tables Winamax pendant mes cours de design. Des expressos, du multitabling, du context switching permanent.\n\nAvec le temps j’ai réalisé que j’entraînais sans le savoir un skill devenu essentiel avec les IA : l’orchestration.\n\nLe problème c’est qu’un humain finit toujours par perdre en qualité quand il parallélise trop.\n\nAujourd’hui j’ai l’impression d’avoir construit l’orchestrateur que j’ai toujours rêvé d’être.\n\nIl s’appelle Emilien.\n\nC’est un agent IA PM/PO autonome qu’on a construit avec Robin.\nIl ne code pas.\n\nIl comprend un projet, crée des briefs, planifie des roadmaps, spawn des équipes d’agents via Orchestria, review leur travail, lance des audits parallèles, compare plusieurs branches concurrentes et choisit les meilleurs outputs.\n\nDepuis 3 jours il adapte Zuno/Tmux dans https://t.co/j5fJPBJKwW pour des noobs comme moi 😭\n\nEmilien ouvre des panes Superset, ferme des terminaux, surveille mes sessions Orchestria que je gère solo à la base et me recommande des approches quand il détecte des insights.\n\nLe plus perturbant c’est que j’ai réellement l’impression de pair coder avec lui.\n\nEt quand il doute… il mandate une autre équipe IA pour vérifier la première.\nLe plus fou c’est qu’Emilien partage notre système de mémoire persistante avec Juliette.\n\nDonc plus il travaille :\nplus il devient expert métier,\nplus il apprend de ses erreurs,\nplus il apprend à manager ses agents.\n\nOn n’a pas créé “un agent”.\n\nOn a créé un management autonome.",
+  "urls": [],
+  "conversation_id": "2057634302528213357",
+  "referenced_tweets": [
+    {
+      "id": "2057090279014867407",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2057090279014867407",
+      "text": "Maybe l'équipe s'agrandit ^^ avec un nouveau type de Pokémon ^^ https://t.co/Y61rFGj25m"
+    }
+  ],
+  "source_url": "https://x.com/powl_d/status/2057634302528213357"
+}

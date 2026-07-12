@@ -1,0 +1,24 @@
+{
+  "id": "2046214298880344552",
+  "author": "@retlehs",
+  "author_name": "Ben Word",
+  "created_at": "2026-04-20T13:08:00.000Z",
+  "text": "The new @Cloudflare site is a great baseline — it checks whether you return Markdown\n\n✨ https://t.co/aosZud6e5b checks whether you return it correctly (Vary, q-values, 406, Link rel=alternate), tracks which AI agents actually adopt the standard, and includes integration guides https://t.co/dkEi2rMIt7 https://t.co/x0GWoSWmUZ",
+  "urls": [
+    "http://acceptmarkdown.com"
+  ],
+  "conversation_id": "2046214298880344552",
+  "referenced_tweets": [
+    {
+      "id": "2045264249501499849",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2045264249501499849",
+      "text": "✅ https://t.co/d4fNgRAPYu https://t.co/H6YCNKe0BX"
+    }
+  ],
+  "source_url": "https://x.com/retlehs/status/2046214298880344552"
+}

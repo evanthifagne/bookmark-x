@@ -1,0 +1,24 @@
+{
+  "id": "2072691442456162547",
+  "author": "@iFeyz2",
+  "author_name": "iFeyz",
+  "created_at": "2026-07-02T14:38:43.000Z",
+  "text": "J’ai la réponse à la question \n\nhttps://t.co/LypUsziYr3 https://t.co/60BBjBCoUk",
+  "urls": [
+    "https://github.com/adithyaakrishna/ascii-fable"
+  ],
+  "conversation_id": "2072691442456162547",
+  "referenced_tweets": [
+    {
+      "id": "2072598878348615974",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2072598878348615974",
+      "text": "On fait comment ce genre d’animation ? https://t.co/TaUzTHvRhl"
+    }
+  ],
+  "source_url": "https://x.com/iFeyz2/status/2072691442456162547"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2071613504688173355",
+  "author": "@icanvardar",
+  "author_name": "Can Vardar",
+  "created_at": "2026-06-29T15:15:22.000Z",
+  "text": "do you understand what just happened??\n\na fully bootstrapped team just launched the MCP that does what $100k/mo agencies do\n\nit can:\n- audit a brand's entire AI search presence\n- find every gap across ChatGPT, Gemini and Claude\n- identify why competitors show up and you don't\n- write every fix automatically\n- implement everything without human input\n- run continuously in the background\n\nthe future of marketing is here",
+  "urls": [],
+  "conversation_id": "2071613504688173355",
+  "referenced_tweets": [
+    {
+      "id": "2071609826778718315",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2071609826778718315",
+      "text": "Today we're introducing the CrowdReply MCP.\n\nThe first ever MCP that analyzes and ranks your website in AI search.\n\nSimply talk to it and it'll find where you're missing, then goes in and handles the implementation. https://t.co/ijZIa0KIc0"
+    }
+  ],
+  "source_url": "https://x.com/icanvardar/status/2071613504688173355"
+}

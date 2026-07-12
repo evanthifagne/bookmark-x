@@ -18,7 +18,10 @@ Transformer les bookmarks bruts de `inbox/*.json` en notes atomiques dans
 2. **Lis le contexte.** `themes.md` (le registre des thèmes), `templates/TEMPLATE-note.md`
    (le format exact), et `INDEX.md` (les notes existantes, pour les liens).
 
-3. **Pour chaque fichier de `inbox/`**, du plus ancien au plus récent.
+3. **Pour chaque fichier de `inbox/`**, du plus ancien au plus récent —
+   **maximum 25 items par run** : si l'inbox en contient plus (backfill),
+   traite les 25 plus anciens et laisse le reste aux runs suivants ; indique
+   dans la PR combien il en reste.
    Deux formats d'entrée : `*.json` (bookmarks X, format ci-dessous) et `*.md`
    (captures manuelles d'Evan — texte libre : traite-les avec la même moulinette,
    la source est alors « capture manuelle » et non un tweet) :

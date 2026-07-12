@@ -64,14 +64,27 @@ Transformer les bookmarks bruts de `inbox/*.json` en notes atomiques dans
 6. **Index.** Lance `node scripts/build-index.mjs` pour régénérer `INDEX.md` et
    les MOCs. Ne les édite pas à la main.
 
-7. **Pull Request.** Commits sur la branche, puis ouvre une PR vers `main` :
+7. **Vue Airtable.** Le vault a une vue de consultation dans Airtable : base
+   `app7PQHwJvf1ef0JY`, table `tbl3Qfbzp9TM8VcZM` (« Bookmark X » / « Notes »).
+   Pour chaque note créée, ajoute un enregistrement via les outils Airtable MCP
+   (clé d'unicité : champ `Slug` = nom de fichier sans `.md` — vérifie qu'il
+   n'existe pas déjà avant de créer). Champs : Titre, Résumé, Pourquoi gardé
+   (texte brut de l'hypothèse), Thèmes (multi-select, slugs du registre
+   uniquement), Tags (texte, séparés par virgules), Statut (`a-valider`),
+   Auteur, Date bookmark, Source X (URL), Note GitHub
+   (`https://github.com/evanthifagne/bookmark-x/blob/main/notes/<slug>.md`), Slug.
+   **Repli** : si les outils Airtable ne sont pas disponibles dans ton
+   environnement, saute cette étape et signale-le dans la PR — la table sera
+   resynchronisée à la main.
+
+8. **Pull Request.** Commits sur la branche, puis ouvre une PR vers `main` :
    - Titre : `Enrichissement AAAA-MM-JJ — N notes`
    - Corps : tableau des notes créées (titre, thème(s) proposé(s)), la liste des
      bookmarks sources, les items en repli (`a-trier`, liens morts, JSON illisibles),
      et les éventuelles propositions de nouveaux thèmes.
    - Ne merge JAMAIS toi-même. La PR attend Evan.
 
-8. **Cas vide.** Si `inbox/` est vide : ne crée ni branche ni PR, termine en
+9. **Cas vide.** Si `inbox/` est vide : ne crée ni branche ni PR, termine en
    le signalant. C'est un cas normal, pas une erreur.
 
 ## Le critère de qualité qui prime

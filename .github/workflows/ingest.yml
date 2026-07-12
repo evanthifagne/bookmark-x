@@ -1,0 +1,68 @@
+name: Ingest X bookmarks
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # tous les jours 06:17 UTC (heure creuse, moins de dérive)
+  workflow_dispatch:
+    inputs:
+      max_per_run:
+        description: "Nombre max de bookmarks à ingérer"
+        default: "10"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Ingest bookmarks
+        env:
+          X_CLIENT_ID: ${{ secrets.X_CLIENT_ID }}
+          X_CLIENT_SECRET: ${{ secrets.X_CLIENT_SECRET }}
+          X_REFRESH_TOKEN: ${{ secrets.X_REFRESH_TOKEN }}
+          MAX_PER_RUN: ${{ github.event.inputs.max_per_run || '10' }}
+          ROTATED_TOKEN_FILE: ${{ runner.temp }}/rotated_token
+        run: node scripts/ingest.mjs
+
+      # Rotation : X fait tourner les refresh tokens (single-use). On persiste
+      # le nouveau AVANT le commit, sinon le prochain run part avec un token mort.
+      - name: Rotate X_REFRESH_TOKEN secret
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -s "${{ runner.temp }}/rotated_token" ]; then
+            gh secret set X_REFRESH_TOKEN --repo "${{ github.repository }}" < "${{ runner.temp }}/rotated_token"
+            echo "Refresh token persisté."
+          else
+            echo "Pas de token à tourner (run interrompu avant le refresh)."
+          fi
+
+      - name: Commit inbox
+        run: |
+          git config user.name "bookmark-x-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add inbox/ .processed.json .processed.json.bak 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Rien à committer."
+          else
+            git commit -m "ingest: $(ls inbox/*.json 2>/dev/null | wc -l | tr -d ' ') item(s) en inbox"
+            git pull --rebase origin main
+            git push
+          fi
+
+  # Parade à la désactivation auto des crons après 60 jours sans activité :
+  # ce job ne fait rien, mais le commit quotidien d'ingest suffit en pratique.
+  # Si l'ingestion est en pause longue, relancer manuellement une fois/mois.

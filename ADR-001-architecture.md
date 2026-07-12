@@ -98,12 +98,15 @@ Le modèle propose une *hypothèse* de « pourquoi », visiblement marquée comm
 1. **Bug de facturation X** : bookmarks possiblement facturés 0,005 $ au lieu de 0,001 $ (5×). Impact plafonné : même ×5, ~5 $/mois au pire. À vérifier sur la première facture réelle.
 2. **Liste exacte des outils du connecteur GitHub MCP dans claude.ai** (Anthropic peut filtrer les toolsets) — la lecture de fichiers est confirmée par des sources tierces, pas par une doc officielle Anthropic. Test en étape 0 ci-dessous.
 3. **Durée de vie/rotation des refresh tokens OAuth2 X** : non documentée. Risque : re-autorisation manuelle périodique (une visite sur une URL, pas plus).
-4. **Fiabilité du connecteur GitHub sur repos privés** : des bugs d'accès ont été rapportés en 2026. Mitigé par le test étape 0.
+4. **Fiabilité du connecteur GitHub sur repos privés** : ❌ **CONFIRMÉ COMME LIMITANT.** L'étape 0 a établi que le connecteur MCP officiel ne peut pas accéder aux repos privés, même avec OAuth autorisé. Le vault doit être public. Ça règle la question mais élimine une option de privacy.
 5. **Stabilité du pricing X** : X a changé son modèle deux fois en 2026. D est le plan de sortie.
 
 ## Plan d'implémentation (après ton feu vert)
 
-**Étape 0 — Test éliminatoire (toi, 15 min, avant tout code).** Créer un repo privé avec 3 notes markdown factices + un INDEX.md, activer le connecteur GitHub MCP sur claude.ai web, puis **depuis ton téléphone** poser une question dont la réponse est dans une note. Si ça échoue, tout s'arrête ici et on repense la couche consultation (candidat : MCP custom Cloudflare). *Toi : création du repo et du connecteur (OAuth GitHub). Moi : je fournis les notes de test.*
+**Étape 0 — Test éliminatoire (toi, 15 min, avant tout code).** ✅ **VALIDÉE (avec changement).**
+Le connecteur GitHub MCP fonctionne sur Claude mobile et peut lire/interroger les notes du repo. **Découverte clé : l'accès aux repos privés est bloqué** (limitation confirmée du connecteur MCP officiel). **Solution : le repo est maintenant public** sur GitHub. Les notes sont listables publiquement, mais sans secrets de toute façon.
+
+Premier test réussi : Claude a retrouvé la note sur le contraste APCA vs WCAG 2 et restitué la bonne réponse. Les deux autres questions n'ont pas été testées (flemme utilisateur), mais la preuve de concept tient.
 
 **Étape 1 — Repo et schéma.** Structure `inbox/`, `notes/`, `INDEX.md`, `templates/`, `.github/workflows/`. Vault ouvrable dans Obsidian tel quel. *Moi : tout. Toi : rien.*
 
@@ -119,6 +122,8 @@ Le modèle propose une *hypothèse* de « pourquoi », visiblement marquée comm
 
 ## Les 3 questions dont la réponse changerait ma recommandation
 
-1. **Le test de l'étape 0 passe-t-il ?** Si le connecteur GitHub MCP ne lit pas correctement un repo privé depuis Claude mobile, la couche consultation de B tombe et C (MCP custom Cloudflare) passe de « plus tard » à « nécessaire » — la recommandation deviendrait B-stockage + C-consultation.
-2. **Es-tu prêt à payer ~1–5 $/mois à X, à durée indéterminée, pour la friction zéro ?** Si la réponse est non — et c'est défendable vu l'instabilité du pricing X — D devient l'ingestion par défaut et B perd son seul poste de coût récurrent, au prix de 2 min de manipulation hebdomadaire sur PC.
-3. **Combien de plans Claude as-tu / prévois-tu ?** Si tu es sur Claude Free, la limite d'**un seul** connecteur custom est structurante : le connecteur GitHub consommerait ton unique slot. Si tu utilises déjà un autre connecteur (Notion, Airtable, Figma…), il faut arbitrer, et ça pourrait repousser vers une consultation via Projects (sync manuel, moins bien) ou justifier Pro.
+1. **Le test de l'étape 0 passe-t-il ?** ✅ **Oui, avec repo public.** Le connecteur GitHub MCP fonctionne sur Claude mobile et peut interroger les notes. Limitation confirmée : repos privés inaccessibles → choix appliqué : repo public. La couche consultation B tient.
+
+2. **Es-tu prêt à payer ~1–5 $/mois à X, à durée indéterminée, pour la friction zéro ?** À déterminer à l'étape 2 (première vraie facture API X, peut-être différente des estimations).
+
+3. **Es-tu à l'aise avec un vault publiquement accessible sur GitHub ?** ✅ **Oui** (« go public »). Les notes ne contiennent pas de secrets de toute façon.

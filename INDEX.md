@@ -1,9 +1,13 @@
 # Index des notes
 
-> Fichier généré — point d'entrée pour l'interrogation via Claude. Une ligne par note : titre, résumé d'une ligne, tags.
+> Fichier généré par `scripts/build-index.mjs` — ne pas éditer à la main.
+> Point d'entrée pour l'interrogation via Claude : lire ce fichier d'abord,
+> puis ouvrir les notes pertinentes dans `notes/`.
 
-| Note | En une ligne | Tags |
-|---|---|---|
-| [APCA vs WCAG 2](notes/2026-07-08-contraste-apca-vs-wcag2.md) | Le ratio WCAG 2 surestime la lisibilité sur fond sombre ; APCA modélise la perception réelle. | accessibilité, couleur |
-| [Trois couches de tokens](notes/2026-07-05-tokens-semantic-vs-primitive.md) | Primitifs → sémantiques → composants ; au-delà, la traçabilité casse. | design-systems, tokens |
-| [Loi de Fitts sur mobile](notes/2026-07-02-loi-fitts-cibles-mobiles.md) | Actions primaires dans le tiers inférieur ; cibles ≥ 44 pt / 48 dp. | ux, mobile, ergonomie |
+3 note(s). Thèmes : branding, design-systems, outils-ia, business-ideas, dev-opensource, ux-mobile.
+
+| Note | En une ligne | Thèmes | Tags | Statut |
+|---|---|---|---|---|
+| [L'algorithme APCA donne un contraste perçu plus juste que le ratio WCAG 2 sur fond sombre](notes/2026-07-08-contraste-apca-vs-wcag2.md) | Le ratio de contraste WCAG 2 surestime la lisibilité du texte clair sur fond sombre. |  | accessibilité, couleur | validée |
+| [Trois couches de tokens suffisent : primitifs, sémantiques, composants](notes/2026-07-05-tokens-semantic-vs-primitive.md) | Au-delà de trois couches d'alias, la traçabilité d'un token devient impossible en pratique. |  | design-systems, tokens | validée |
+| [La zone de pouce couvre mal le tiers supérieur de l'écran : y placer la lecture, pas l'action](notes/2026-07-02-loi-fitts-cibles-mobiles.md) | Sur un téléphone tenu à une main, ~49 % de l'écran est confortablement atteignable au pouce. |  | ux, mobile, ergonomie | validée |

@@ -1,0 +1,12 @@
+# Obsidian : état d'interface local, jamais versionné
+.obsidian/workspace*
+.obsidian/cache
+
+# Secrets et fichiers locaux — aucun token dans ce repo (public)
+.env
+.env.*
+*.token
+rotated_token
+
+# OS
+.DS_Store

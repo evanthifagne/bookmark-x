@@ -18,7 +18,10 @@ Transformer les bookmarks bruts de `inbox/*.json` en notes atomiques dans
 2. **Lis le contexte.** `themes.md` (le registre des thèmes), `templates/TEMPLATE-note.md`
    (le format exact), et `INDEX.md` (les notes existantes, pour les liens).
 
-3. **Pour chaque fichier de `inbox/*.json`**, du plus ancien au plus récent :
+3. **Pour chaque fichier de `inbox/`**, du plus ancien au plus récent.
+   Deux formats d'entrée : `*.json` (bookmarks X, format ci-dessous) et `*.md`
+   (captures manuelles d'Evan — texte libre : traite-les avec la même moulinette,
+   la source est alors « capture manuelle » et non un tweet) :
    a. Lis le JSON : texte du tweet, auteur, date, `urls`, tweets référencés.
    b. **Déroule le contexte.** Si le tweet fait partie d'un thread de l'auteur ou
       cite un autre tweet, le champ `included` contient déjà du contexte. Si des
@@ -40,8 +43,15 @@ Transformer les bookmarks bruts de `inbox/*.json` en notes atomiques dans
         `notes/` (vérifie leur existence). Zéro lien inventé. Pas de lien pertinent
         → laisse la ligne vide.
       - **Contexte** : thread déroulé / extrait de la page liée, en citation.
-      - Front matter : `themes` = slugs du registre uniquement ; `tags` = 1 à 4
-        tags libres en kebab-case ; `statut: a-valider`.
+      - Front matter : `type` = `reference-design` | `concept` | `tutoriel` |
+        `tweet` (choisis selon la nature du contenu) ; `themes` = slugs du
+        registre uniquement ; `tags` = 1 à 4 tags libres en kebab-case ;
+        `statut: a-valider`.
+      - Selon le type : `reference-design` → le Résumé décrit ce qui est
+        visuellement remarquable (composition, couleur, pattern — c'est ce qui
+        rend l'image retrouvable en langage naturel), jamais d'image téléchargée
+        dans le repo ; `tutoriel` → ajoute une section **Étapes clés** (le
+        condensé actionnable) ; `tweet` → court, pas de zèle.
 
 4. **Règles de repli** (jamais d'arrêt, jamais de question) :
    - Sujet indéterminable → note quand même, tag `a-trier`, pourquoi = `[à compléter]`.
@@ -79,9 +89,13 @@ Transformer les bookmarks bruts de `inbox/*.json` en notes atomiques dans
 
 8. **Pull Request.** Commits sur la branche, puis ouvre une PR vers `main` :
    - Titre : `Enrichissement AAAA-MM-JJ — N notes`
-   - Corps : tableau des notes créées (titre, thème(s) proposé(s)), la liste des
-     bookmarks sources, les items en repli (`a-trier`, liens morts, JSON illisibles),
-     et les éventuelles propositions de nouveaux thèmes.
+   - Corps : tableau des notes créées (titre, type, thème(s) proposé(s)), la liste
+     des bookmarks sources, les items en repli (`a-trier`, liens morts, JSON
+     illisibles), et les éventuelles propositions de nouveaux thèmes.
+   - **Section « 🔁 D'il y a longtemps »** : choisis 3 notes anciennes de `notes/`
+     (les moins récentes que tu n'as pas déjà remontées dans une PR précédente,
+     varie les thèmes) et liste-les avec leur résumé d'une ligne. C'est le
+     mécanisme de resurfacing : Evan les recroise sans effort en relisant la PR.
    - Ne merge JAMAIS toi-même. La PR attend Evan.
 
 9. **Cas vide.** Si `inbox/` est vide : ne crée ni branche ni PR, termine en

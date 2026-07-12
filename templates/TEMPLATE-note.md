@@ -4,6 +4,7 @@ source_tweet_id: "TWEET_ID"
 auteur: "@HANDLE"
 date_bookmark: AAAA-MM-JJ
 date_traitement: AAAA-MM-JJ
+type: concept
 themes: [theme-slug]
 tags: [tag1, tag2]
 statut: a-valider
@@ -21,7 +22,14 @@ statut: a-valider
 > Thread déroulé ou extrait significatif de la page liée (traduit ou brut).
 > Si le lien est mort : « ⚠️ lien mort au traitement (AAAA-MM-JJ) ».
 
-<!-- Règles :
+<!-- type: reference-design | concept | tutoriel | tweet
+     - reference-design : le Résumé décrit CE QUI est visuellement remarquable
+       (composition, couleur, pattern) — c'est ce qui rend l'image retrouvable.
+       L'image reste sur X (lien source) ; jamais d'image lourde dans git.
+     - tutoriel : ajouter une section **Étapes clés** — le condensé actionnable.
+     - tweet : format court, pas de zèle.
+
+     Règles :
      - Une note = UNE idée. Un thread à 3 idées = 3 notes.
      - Nom de fichier : notes/AAAA-MM-JJ-slug-court.md (date du bookmark).
      - themes: slugs présents dans themes.md uniquement ; proposition de

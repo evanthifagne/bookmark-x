@@ -68,6 +68,7 @@ const notes = files.map((f) => {
     slug: f.replace(/\.md$/, ""),
     title: title(md),
     summary: firstLine(md, "Résumé"),
+    type: fm.type || "",
     themes: fm.themes || [],
     tags: fm.tags || [],
     statut: fm.statut || "?",
@@ -85,11 +86,11 @@ let index = `# Index des notes
 
 ${notes.length} note(s). Thèmes : ${themeSlugs.join(", ") || "(aucun)"}.
 
-| Note | En une ligne | Thèmes | Tags | Statut |
-|---|---|---|---|---|
+| Note | En une ligne | Type | Thèmes | Tags | Statut |
+|---|---|---|---|---|---|
 `;
 for (const n of notes) {
-  index += `| [${esc(n.title)}](notes/${n.file}) | ${esc(n.summary)} | ${esc(n.themes.join(", "))} | ${esc(n.tags.join(", "))} | ${esc(n.statut)} |\n`;
+  index += `| [${esc(n.title)}](notes/${n.file}) | ${esc(n.summary)} | ${esc(n.type)} | ${esc(n.themes.join(", "))} | ${esc(n.tags.join(", "))} | ${esc(n.statut)} |\n`;
 }
 fs.writeFileSync(path.join(ROOT, "INDEX.md"), index);
 console.log(`✓ INDEX.md régénéré (${notes.length} notes).`);

@@ -1,0 +1,22 @@
+{
+  "id": "2076717324585898343",
+  "author": "@witcheer",
+  "author_name": "witcheer",
+  "created_at": "2026-07-13T17:16:08.000Z",
+  "text": "few days ago I asked how you run Hermes. \n\n250+ replies came back: 70 of you gave real answers and 60 described full setups. \n\nI read and hand-tallied every one. here is what this community runs, in six numbers. 🧵 https://t.co/jMD78khXRx",
+  "urls": [],
+  "conversation_id": "2076717324585898343",
+  "referenced_tweets": [
+    {
+      "id": "2073007307617599926",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2073007307617599926",
+      "text": "I'm interested in how you're all running Hermes day to day. drop your setup below, I'm mapping what the community reaches for. \n\nI'm mostly curious about:\n\n- model: your daily driver, plus MoA or a local model if you run one\n- memory: built-in, an Obsidian vault, or another layer\n- interface: TUI, Desktop, or a Messaging gateway\n- orchestration: kanban, delegate_task, subagents in tmux, /goal\n- the skills or MCP servers you'd miss if they were gone\n\nno setup is too small. I'll gather the common patterns and share them back."
+    }
+  ],
+  "source_url": "https://x.com/witcheer/status/2076717324585898343"
+}

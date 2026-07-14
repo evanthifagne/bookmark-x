@@ -1,0 +1,12 @@
+{
+  "id": "2076680548764787129",
+  "author": "@leploutos",
+  "author_name": "Le PLOUTOS",
+  "created_at": "2026-07-13T14:50:00.000Z",
+  "text": "Si tu veux lancer un SaaS en 2026 :\n\nClaude = le code. (20€/mois)\nHermes de Nous Research = les agents. (gratuit)\nHetzner = le VPS. (5€/mois)\nCoolify self-hosted = le déploiement. (gratuit)\nSupabase = le backend. (gratuit)\nOVH = le domaine. (10€/an)\nStripe = les paiements. (1,5% + 0,25€/transaction)\nGitHub = le versioning. (gratuit)\nResend = les emails transactionnels. (gratuit)\nClerk = l'authentification. (gratuit)\nCloudflare = le DNS. (gratuit)\nPostHog = l'analytics. (gratuit)\nSentry = le tracking d'erreurs. (gratuit)\nUpstash = Redis. (gratuit)\nPinecone = la base vectorielle. (gratuit)\n\nTotal pour lancer ton SaaS : ~26€ / mois.",
+  "urls": [],
+  "conversation_id": "2076680548764787129",
+  "referenced_tweets": [],
+  "included": [],
+  "source_url": "https://x.com/leploutos/status/2076680548764787129"
+}

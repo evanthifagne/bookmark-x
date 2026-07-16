@@ -1,0 +1,12 @@
+{
+  "id": "2077407794341302719",
+  "author": "@Ibelick",
+  "author_name": "Ibelick",
+  "created_at": "2026-07-15T14:59:49.000Z",
+  "text": "new skill: improve-ui\n\nbuilt to audit interfaces against their own design language, inspired by @shadcn's improve skill.\n\nit reads your repo's design context: DESIGN.md, CSS, shared components, etc. then finds where the UI breaks its own rules and writes a plan to fix it https://t.co/SimmQa6q6F",
+  "urls": [],
+  "conversation_id": "2077407794341302719",
+  "referenced_tweets": [],
+  "included": [],
+  "source_url": "https://x.com/Ibelick/status/2077407794341302719"
+}

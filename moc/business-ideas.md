@@ -1,8 +1,20 @@
 # MOC — business-ideas
 
 > Généré par `scripts/build-index.mjs` — ne pas éditer à la main.
-> 3 note(s) sur ce thème.
+> 15 note(s) sur ce thème.
 
+- [[2026-07-13-stack-saas-26-euros]] — Une stack de lancement SaaS où presque tout tient sur les free tiers : seuls Claude (20 €/mois), le VPS Hetzner (5 €/mois) et le domaine OVH (10 €/an) sont payants.
 - [[2026-07-11-trustmrr-mcp-marche-pour-agents]] — TrustMRR (annuaire de startups avec revenus vérifiés) publie un MCP qui expose son API publique : revenus, MRR, canaux marketing des startups listées.
 - [[2026-07-11-copier-des-startups-validees-pour-agents]] — La recette de Rob Hallam : interroger les données de TrustMRR pour lister des startups qui font déjà 50 k$+ de MRR mais ne sont pas pensées pour les agents IA, puis reconstruire la même offre en agent-first.
+- [[2026-07-06-promethee-travail-gamifie]] — Promethee (promethee.io) gamifie le travail réel : chaque tâche accomplie alimente un RPG avec quêtes, points d'expérience, guildes et rankings.
+- [[2026-07-03-contenu-maker-cal-ai]] — Jeremy Lasne signale que le maker de Cal AI (l'app de comptage de calories au succès très médiatisé) publie du bon contenu, avec un lien vers un article X.
+- [[2026-06-29-crowdreply-mcp-seo-ia]] — CrowdReply lance un MCP qui analyse et classe la présence d'un site dans la recherche IA : audit de la visibilité de la marque sur ChatGPT, Gemini et Claude, identification des raisons pour lesquelles les concurrents sortent et pas vous, rédaction des correctifs et implémentation automatique, en continu.
+- [[2026-06-14-pipeline-reddit-praw-vente-saas]] — Technique de growth : connecter sa clé API Reddit (avec PRAW pour aller plus loin) à Hermes pour orchestrer et écrire les posts, puis à Zernio pour publier automatiquement.
+- [[2026-05-11-pdf-redesign-automatique]] — Lancement d'un outil qui prend n'importe quel PDF (CV, facture, proposition client) et en rend une version professionnellement mise en page, en quelques minutes, quelle que soit la complexité du document.
+- [[2026-04-19-question-site-mrr-saas]] — Simple question publique demandant le nom du site qui liste les SaaS avec leur MRR.
+- [[2026-04-12-agents-qui-cherchent-des-business-la-nuit]] — En réponse à quelqu'un qui assume 1 000 €/mois d'abonnements IA (Cursor Ultra, Claude Code, Codex, Gemini…), Yannick Grenzinger surenchérit à 5 000 €/mois avec un pipeline caricatural : Openclaw cherche des business rentables la nuit, bootstrap un « board de directeurs » d'agents, qui génèrent les apps avec Claude Code.
+- [[2026-04-10-stack-startup-20-dollars]] — Un stack complet de startup où quasiment tout est gratuit : Supabase (backend), Vercel (déploiement), GitHub, Resend (emails), Clerk (auth), Cloudflare, PostHog, Sentry, Upstash, Pinecone — plus Namecheap (12 $/an), Stripe (2,9 %/transaction) et Claude à 20 $/mois pour le code.
+- [[2026-01-20-chatseo-strategie-instantanee]] — ChatSEO promet une stratégie SEO instantanée : l'outil récupère automatiquement la techno, le contenu et le positionnement du site, puis produit un plan complet en une minute.
+- [[2025-12-03-structure-landing-saas-convertit]] — Florian (Landingflow) partage un schéma de la structure d'une landing SaaS orientée conversion — l'ordre et le rôle des sections.
+- [[2025-11-21-infrastructure-conversion-avant-scaling]] — Dylan W. détaille la refonte du site de Propalio pour maximiser la conversion avant une phase de scaling : limiter la landing page à 6 sections maximum, réécrire tout le copy, ajouter des motion designs qui illustrent les bénéfices, proposer des templates duplicables depuis le site avec un flow dédié, et créer des pages Features et Use Cases. L'idée-clé : la conversion se construit comme une infrastructure, avant d'investir en acquisition.
 - [[2025-02-26-bouton-recouvrement-facturation]] — En réponse à une plainte classique du freelance (les retards de paiement tous les mois), Sony Rouhaud note que son logiciel de facturation intègre un bouton pour déclencher très vite un service de recouvrement.

@@ -1,8 +1,39 @@
 # MOC — dev-opensource
 
 > Généré par `scripts/build-index.mjs` — ne pas éditer à la main.
-> 3 note(s) sur ce thème.
+> 34 note(s) sur ce thème.
 
+- [[2026-07-14-scan-cartes-codebase]] — Scan transforme un prompt donné à Claude ou Codex en cartes de codebase « belles et partageables » : une visualisation de l'architecture produite par l'agent lui-même.
+- [[2026-07-13-blume-framework-docs]] — Blume (useblume.dev) génère un site de documentation complet depuis un simple dossier de Markdown : navigation, recherche, images OG et llms.txt inclus, zéro boilerplate d'app.
+- [[2026-07-11-dither-kit-graphiques-dithering]] — dither-kit est une bibliothèque de graphiques dont l'esthétique repose sur le dithering (trame de points façon impression rétro / e-ink), un parti pris visuel fort qui tranche avec les charts lisses habituels.
 - [[2026-07-10-opencut-alternative-capcut]] — OpenCut est une alternative libre (MIT) à CapCut, née du ras-le-bol des watermarks et fonctions verrouillées derrière abonnement.
 - [[2026-07-09-openlogi-driver-local-first]] — OpenLogi est une alternative open source à Logitech Options+ : remappage des boutons, réglage DPI et SmartShift, le tout en local via le protocole HID++, sans compte ni tracking.
+- [[2026-07-08-ekmek-image-vers-svg]] — Ekmek, tout juste sorti en v1, vectorise n'importe quelle image en SVG.
+- [[2026-07-07-notion-workers-sync-bookmarks]] — Cole Bemis (créateur de Feather Icons) publie github.com/colebemis/notion-workers (vérifié, ~118 étoiles) : ses workers Cloudflare pour Notion, dont celui qui synchronise ses bookmarks Twitter dans une base Notion.
+- [[2026-07-06-aerospace-tiling-macos]] — Dans le même fil, AeroSpace est présenté comme la meilleure option de gestion de fenêtres en tuiles sur macOS : pilotage clavier, tiling dynamique, workspaces, zéro souris.
+- [[2026-07-04-reicon-bibliotheque-icones]] — Reicon (reicon.dev) est une bibliothèque d'icônes SVG open source et gratuite : plus de 2 700 icônes « precision-crafted », personnalisables, disponibles pour UI design, React, React Native, Vue, Svelte et Figma.
+- [[2026-07-02-mapcn-composants-carte]] — mapcn (AnmolSaini16/mapcn, vérifié à ~10,8 k étoiles) fournit des composants de carte prêts à l'emploi, gratuits, installables en une commande — le pattern shadcn appliqué aux cartes.
+- [[2026-07-02-ascii-fable-animation-ascii]] — En réponse à un tweet demandant comment reproduire une animation en art ASCII, iFeyz pointe le repo GitHub adithyaakrishna/ascii-fable (vérifié, ~74 étoiles).
+- [[2026-06-30-heroui-native-composants-mobiles]] — Le créateur de HeroUI pousse HeroUI Native (composants React Native) comme antidote aux interfaces mobiles génériques produites par les outils IA : partir d'un socle de composants soignés plutôt que de laisser le modèle inventer l'UI.
+- [[2026-06-28-regles-flux-analyse-statique-agents]] — Filip Ganyicz montre 50+ règles et bonnes pratiques pour Flux (la lib UI de Livewire) avec un point clé : elles ne sont pas juste écrites dans un fichier d'instructions, elles sont appliquées par analyse statique — « so agents actually follow them ».
+- [[2026-06-28-dataset-exercices-fitness-gifs]] — Tom Dörr signale un dataset d'exercices de musculation/fitness sur GitHub (hasaneyldrm/exercises-dataset) : GIFs d'animation pour chaque exercice et instructions bilingues.
+- [[2026-06-24-traycer-desktop-orchestration]] — Traycer lance une app desktop gratuite et open source pensée pour l'orchestration d'IA : on branche ses abonnements existants (Claude, Codex, Opencode…), communication agent-à-agent et boucles, workspaces persistants avec onglets, partage de tâches en équipe.
+- [[2026-06-21-gradient-shimmer-npm]] — Package npm de shimmer de texte à dégradé multi-stop pour React (gradient-shimmer.vercel.app), avec preview dark et courbe d'easing réglable.
+- [[2026-06-17-opencut-viralite-hispanophone]] — Thread viral en espagnol sur OpenCut (déjà noté dans le vault) : alternative MIT à CapCut, sans watermark ni paywall, web/desktop/mobile.
+- [[2026-06-17-eve-framework-agents-vercel]] — Vercel lance eve, framework open source pour construire, exécuter et scaler des agents.
+- [[2026-06-06-bettershot-alternative-cleanshot]] — BetterShot reconstruit CleanShot X en Swift 6 + SwiftUI natif (zéro webview, zéro Tauri) : capture région/fenêtre/plein écran, fonds dégradés, annotations, OCR, color picker, épinglage en fenêtre flottante — gratuit pour toujours, local-first, sans cloud ni télémétrie ni abonnement.
+- [[2026-06-03-designengineer-tools-annuaire]] — designengineer.tools recense les outils utiles aux design engineers, rangés par catégorie d'usage : inspiration (Mobbin, Seesaw, Godly…), composants (shadcn/ui, 21st.dev, Motion Primitives), utilitaires couleur/easing (OKLCH Picker, Color.review), capture vidéo, motion, 3D, fonts, interfaces (Figma, Rive, Penpot).
+- [[2026-05-08-react-doctor-v2]] — React Doctor (millionco/react-doctor, ~14 000 étoiles) part du constat que « ton agent écrit du mauvais React » : l'outil scanne l'app et détecte ces erreurs pour les corriger en quelques minutes.
+- [[2026-05-06-snapzy-alternative-cleanshot]] — Snapzy (duongductrong/Snapzy, ~2 100 étoiles) est une app macOS native et open source de capture d'écran et d'enregistrement vidéo, positionnée explicitement comme alternative à CleanShot X.
+- [[2026-05-04-finetune-alternative-soundsource]] — FineTune est une app de barre de menus macOS, gratuite et open source (~8 000 étoiles, ronitsingh10/FineTune), qui reprend l'essentiel de SoundSource : volume par application, boost 4x, sortie multi-périphériques, égaliseur 10 bandes et correction casque AutoEQ.
+- [[2026-04-28-extension-screenshots-light-dark]] — Simeon Griggs a « vibé » une extension Chrome qui prend des captures nettes d'un élément précis ou du viewport entier, simultanément en mode clair et en mode sombre.
+- [[2026-04-26-stack-mac-open-source]] — Un tweet viral propose la stack Mac 2026 : Zen Browser, cmux (pour Claude et Codex), Xcode et Recordly, présentés comme gratuits et open source.
+- [[2026-04-24-tolaria-notion-local-first]] — Tolaria se présente comme le second cerveau de l'ère IA : des fichiers Markdown réels sur disque (YAML compris), git natif avec commit automatique dans l'app, des blocs façon Notion plus un mode Markdown pur, une IA Claude intégrée sans configuration, des relations et propriétés natives sans plugins.
+- [[2026-04-13-clone-wispr-flow-gratuit]] — Un développeur annonce avoir cloné Wispr Flow (dictée IA populaire, payante) et le distribuer gratuitement.
+- [[2026-04-10-trek-planificateur-voyage-self-hosted]] — TREK (github.com/mauriceboe/TREK, AGPL v3) est un planificateur de voyage auto-hébergé : cartes interactives, collaboration en temps réel, suivi de budget, listes de bagages, journal, PWA, SSO et IA intégrée, distribué en Docker.
+- [[2026-03-13-openbrand-extraction-assets-marque]] — OpenBrand (MIT, gratuit, openbrand.sh) prend une URL et en extrait les assets de marque : logos, couleurs, images.
+- [[2026-01-15-font-sniper-raycast]] — Font Sniper est une extension Raycast qui identifie et télécharge les fontes utilisées par n'importe quel site web.
+- [[2025-11-29-vert-sh-convertisseur-fichiers]] — VERT.sh convertit images, audio, documents et vidéos dans le format voulu, gratuitement, sans publicité et en open source — l'antithèse des sites de conversion truffés de pubs qui bloquent après X conversions.
+- [[2025-10-27-fmhy-annuaire-ressources-gratuites]] — En réaction à un tweet sur la dérive du tout-abonnement (films, musique, apps autrefois gratuites), P4mui recommande fmhy.net (« freemediaheckyeah ») : un wiki communautaire massif qui recense des ressources et alternatives gratuites dans tous les domaines.
+- [[2025-10-14-generateur-gradients-bruit-gratuit]] — Un outil web gratuit (créé par Daniel Destefanis) génère des dégradés illimités avec contrôle du bruit (noise), de la forme, des couleurs et du gradient — le même territoire visuel que les fonds grain + gradient.
 - [[2025-01-25-generateur-logo-ia-open-source]] — Tom Dörr signale un générateur de logo open source qui s'appuie sur l'IA.

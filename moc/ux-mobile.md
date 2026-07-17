@@ -1,8 +1,46 @@
 # MOC — ux-mobile
 
 > Généré par `scripts/build-index.mjs` — ne pas éditer à la main.
-> 7 note(s) sur ce thème.
+> 45 note(s) sur ce thème.
 
+- [[2026-07-12-namethatui-dictionnaire-ui]] — NameThatUI résout le problème inverse de la doc classique : on décrit un élément d'interface avec ses mots approximatifs (« la couche sombre semi-transparente derrière une popup ») et le site donne son vrai nom, sa définition, et un prompt prêt à coller pour un agent de code.
+- [[2026-07-07-design-clean-rico-apercu]] — Rico montre un aperçu du redesign d'une app grand public (« one of the best apps you probably use », non nommée) en demandant si le design est clean.
+- [[2026-06-30-redesign-openclaw-valeur-designer]] — Une équipe design reprend l'app iOS d'OpenClaw, jugée visiblement « vibe coded », et en publie un redesign rapide en avant/après.
+- [[2026-06-30-radiology-dashboard-mikun]] — Le compte de curation Best Designs On X met en avant un dashboard de radiologie conçu par @mikun_ux — un cas d'UI dense et métier (imagerie médicale) traité avec soin.
+- [[2026-06-29-number-steppers-recompenser-le-hold]] — Un stepper qui n'incrémente qu'une fois par clic force vingt clics : il faut « récompenser le hold » (maintien appuyé qui enchaîne les incréments).
+- [[2026-06-27-transition-remarquable-barta]] — Adam Barta partage une transition d'UI présentée comme exceptionnelle.
+- [[2026-06-27-creepy-ui-cachee-telephone]] — Tweet-vidéo intitulé « The Creepy UI Hidden on Your Phone ».
+- [[2026-06-23-transitions-dev-skill-agents]] — Jakub Antalik enrichit transitions.dev : 21 transitions UI prêtes à l'emploi (resize de carte, flip de chiffres avec blur, badge de notif à ressort, modal, confettis physiques, shake d'erreur…), copiables en CSS ou React.
+- [[2026-06-18-means-and-methods-interface-craft]] — Josh Puckett lance « Means & Methods » sur interfacecraft.dev : une collection de techniques pratiques pour l'excellence en design d'interface — 100+ sujets sur 11 chapitres, exemples interactifs et code.
+- [[2026-06-17-audit-ux-par-subagents-personas]] — Méthode : demander à Claude de lancer plusieurs subagents incarnant des personas différents, venant de sources différentes (X, Insta, FB, Google), chacun simulant son parcours sur le site et relevant les frictions (retours en arrière, info introuvable).
+- [[2026-06-15-mordran-onboarding-design]] — Partage d'un design d'onboarding pour une app nommée Mordran.
+- [[2026-06-12-atlas-cartographier-app-ios]] — Le diagnostic : les designers livrent du Figma, les devs du code, les PM une roadmap — et rien ne correspond à l'app réellement shippée.
+- [[2026-05-10-pricing-sections-no-bs]] — Robin récidive avec une série de sections de tarifs SaaS volontairement directes (« no bs pricing sections »).
+- [[2026-05-04-raccourci-d-toggle-mode]] — shadcncraft ajoute le raccourci D (en plus de M) pour basculer le mode.
+- [[2026-05-04-pricing-section-clean]] — Robin partage ce qu'il présente comme sa section de tarifs la plus épurée pour un SaaS.
+- [[2026-05-04-landing-luxe-minimalisme]] — Joy présente une landing page pensée comme la rencontre de trois registres : esthétique luxe, minimalisme et structure orientée conversion.
+- [[2026-04-29-landing-clean-unique]] — Format classique « Client : design me a clean and unique landing page / Me: say less », avec le résultat en image.
+- [[2026-04-27-infographies-propres-conversion]] — Raunak affirme qu'une infographie épurée convertit mieux, exemple à l'appui.
+- [[2026-04-25-scrollbars-css-discretes]] — Pour que les barres de défilement « ne gâchent pas » une interface : `scrollbar-width: thin;` et `scrollbar-color: gray transparent;`.
+- [[2026-04-24-process-site-web-etapes]] — Satya (Supafast) détaille le déroulé type de son agence pour produire un site : d'abord la recherche (site actuel, marché), puis la collecte d'inspirations du client, wireframe, premier draft, itérations, design final — et seulement ensuite l'animation des assets, au moment du développement.
+- [[2026-04-23-design-roast-insforge]] — Namya (Supafast) publie une critique de design (« roast ») du site d'Insforge, en listant ce qu'elle raffinerait dans une seconde passe.
+- [[2026-04-21-landing-myheritage]] — Satya (Supafast) montre une landing page conçue pour MyHeritage, marque grand public de généalogie.
+- [[2026-04-21-landing-ai-saas-image]] — Shot d'une landing page de SaaS IA, partagé sans commentaire.
+- [[2026-04-21-galeries-ressources-design-par-usage]] — Liste de sites de référence à mobiliser selon ce qu'on cherche : **Curations** (curations.supply, bibliothèque design), **Landing.love** (landing pages), **Saaspo** (saaspo.com, sites SaaS), **Sleek** (sleek.design, builder d'app mobile IA), **Uncut** (uncut.wtf, fonts libres), **60fps.design** (animations), **Mobbin** (patterns d'apps mobiles), **Rebrand Gallery** (rebrand.gallery, identités de marque), **Hugeicons** (icônes) et **Component Gallery** (component.gallery, design systems).
+- [[2026-04-15-skill-motion-design-agents]] — Constat : les skeleton loaders générés par IA sont presque toujours ratés, car le modèle produit du code d'animation sans intention de mouvement.
+- [[2026-04-14-layout-d-abord-polish-ensuite]] — Marcel Kargul défend les brouillons rapides : au départ d'un projet, inutile de viser un espacement, une typographie ou des tailles parfaites.
+- [[2026-04-01-refcat-banque-de-references]] — Plaidoyer (en portugais) pour l'usage systématique d'une banque de références — l'auteur promeut refcat.app, mais dit lui-même que n'importe quel outil du genre fait l'affaire.
+- [[2026-03-09-notion-dashboards]] — Notion lance Dashboards : boards, tables, graphiques et timelines rassemblés dans une seule vue synthétique au-dessus des databases.
+- [[2026-03-07-sortir-du-look-ia-icones]] — Les apps codées par IA convergent vers le même stack visuel — Inter, lucide, composants Tailwind — d'où leur air de famille générique.
+- [[2026-03-03-motion-mega-menu]] — Exemple Motion+ d'un mega menu : entrée en cascade (stagger), transitions qui s'adaptent à la direction du survol gauche-droite entre les panneaux, et sortie animée par ressort (spring).
+- [[2026-03-02-tabular-nums-par-defaut]] — Les chiffres à chasse variable font bouger la mise en page dès qu'une valeur change (timer, compteur, prix, score, data live).
+- [[2026-01-12-trois-tips-ui-rico]] — Trois réglages concrets et directement réutilisables : ES Rebond Grotesque pour les titres avec ABC Diatype pour le texte courant ; des icônes calibrées à 16 px avec un trait de 1,2 px ; et systématiquement un fond gris derrière une interface chargée en données, pour que les surfaces blanches (cartes, tableaux) se détachent.
+- [[2026-01-11-du-wireframe-au-design-final]] — Marcel Kargul montre côte à côte un wireframe et le design final qui en découle — la valeur pédagogique est de voir ce que la mise en haute fidélité ajoute (typo, couleur, espacements, hiérarchie) sans changer la structure.
+- [[2026-01-06-astuce-cartes-boutons-aligrids]] — Ali Grids promet qu'appliquer la technique montrée (uniquement en image/vidéo, non analysée) à une carte ou un bouton améliore instantanément le rendu — vraisemblablement un détail de traitement visuel (ombre, bordure, relief, dégradé).
+- [[2025-11-30-site-tips-uxui-guillaume]] — Guillaume attribue sa progression en UX/UI à un site qui compile tips et exemples concrets ; en appliquant ses conseils, ses designs « passent à un autre niveau ».
+- [[2025-11-27-six-galeries-inspiration-par-support]] — UI/UX Savior liste ses sites d'inspiration de référence, un par besoin : curated.design (web design), onepagelove.com (landing pages), component.gallery (design systems), appmotion.design (animation), mobbin.com (apps), rebrand.gallery (marques).
+- [[2025-11-16-recette-app-mobile-parfaite]] — Marcel Kargul condense sa méthode de design d'app mobile en quatre règles : espacement cohérent partout, drop shadows légères, artboard de 430×932 px (format iPhone récent), et une bonne typo — Inter, Geist ou SF Pro.
+- [[2025-11-13-sidebar-breadcrumb-timeline-craft]] — Niko réagit d'un simple « what » (stupéfaction) à un design en cours montrant une sidebar, un breadcrumb et une timeline, dont l'auteur promet de « soigner les détails à l'implémentation ».
 - [[2025-03-02-galeries-inspiration-par-usage]] — Sélection de galeries de référence à mobiliser selon ce qu'on cherche : **Seesaw** (seesaw.website) pour le web, **Mobbin** (mobbin.com) pour les patterns mobile, **Component Gallery** (component.gallery) pour les design systems, **Saaspo** (saaspo.com) pour les landing SaaS, plus des sources pour animations mobile, marques, icônes et fonts.
 - [[2025-02-23-sites-challenges-ux-quotidiens]] — Sélection de plateformes pour pratiquer le design en dehors des projets clients : **Daily UI** (dailyui.co, un défi UI par jour par email), **Good Brief** (goodbrief.io, génère de faux briefs clients), **UX Challenge** (uxchallenge.co, exercices UX cadrés), **Fake Clients** (fakeclients.com, briefs aléatoires pour s'exercer), et **UX Tools**.
 - [[2025-02-19-calltoinspiration-galerie]] — Ezis recommande calltoinspiration.com pour la qualité de sa sélection d'inspirations UI/UX.

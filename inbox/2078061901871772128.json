@@ -1,0 +1,22 @@
+{
+  "id": "2078061901871772128",
+  "author": "@aydaoz",
+  "author_name": "Ayda Oz",
+  "created_at": "2026-07-17T10:19:00.000Z",
+  "text": "my method in article - result:\njust one prompt and it works perfectly:) https://t.co/BYAqnNQdlf https://t.co/MIFdMMVLfO",
+  "urls": [],
+  "conversation_id": "2078061901871772128",
+  "referenced_tweets": [
+    {
+      "id": "2071891270172045815",
+      "type": "quoted"
+    }
+  ],
+  "included": [
+    {
+      "id": "2071891270172045815",
+      "text": "https://t.co/SiOdA2ALpo"
+    }
+  ],
+  "source_url": "https://x.com/aydaoz/status/2078061901871772128"
+}
